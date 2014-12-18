@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>UNITS</title>
+	 
+	   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+  
+  <script>
+window.onload = popup;
+
+function popup(){
+
+						$.mobile.loading('show');
+						$("#animatequake").slideDown(2000);
+						$("#animatequake").fadeIn(function(){
+						
+											
+						});
+	
+						$("#animate1").slideDown(3000);
+						$("#animate1").fadeIn(function(){							
+			
+						});
+				
+					
+							$("#animate2").slideDown(3000);
+						$("#animate2").fadeIn(function(){							
+			
+						});
+				
+		
+							$("#animate3").slideDown(3000);
+						$("#animate2").fadeIn(function(){							
+			
+						});		
+							$("#animate4").slideDown(3000);
+						$("#animate2").fadeIn(function(){							
+							$.mobile.loading('hide');	
+						});
+}
+
+  </script>
+
+  <script>   
+ 
+</script>	
+  </head>
+
+  <body>
+<div data-role="page" id="studentmanual">
+<div data-role="header" data-position="fixed" >
+   <a ></a>
+     <div align="center">
+      <img src="img/gcosws.png" height="8%" width="70%"/>
+	  </div>
+    <a href="index.html" data-ajax="false"  data-iconpos="notext" data-role="button" data-icon="home" data-theme="b" title="Home">Home</a>
+</div>
+<div data-role="content" role="main" style="background: #b4efcb;  border-radius: 8px; margin:5%; " >
+	
+	
+		<div  style="background: #419d64; border-radius: 6px; display: none;"  id="animatequake">
+		<div align="center" style="color: white;"> <img src="img/quake.png" id="img3" align="center" width="40%"  height="20%"/>  </div>
+		</div>
+		<div style="display: none;"  id="animate1"><img src="img/handbookgraphic1.png" width="100%"></div>
+		<div style="display: none;"  id="animate2"><img src="img/handbookgraphic2.png" width="100%"></div>
+		<div style="display: none;"  id="animate3"><img src="img/handbookgraphic3.png" width="100%"></div>
+		<div style="display: none;"  id="animate4"><img src="img/handbookgraphic4.png" width="100%"></div>
+		<div  class="ui-body" id="manual" style="background: #2980B9; display:none;">
+		<div style="color: white; text-align: justify;">
+		<button style="background: #3498DB; color: WHITE;" data-theme="f"  id="closemanual"  ><<<<</button>
+		</div>
+		</div>
+	
+<a href="#wearinguniform" data-role="button"  data-icon="flat-menu" data-theme="b" style="background: #005325">WEARING OF UNIFORM</a>
+</div>
+
+
+</div>	
+
+
+    <!-- wearing uniform -->
+<div data-role="page" id="wearinguniform">
+<div data-role="header" data-position="fixed" >
+        <a href=""  data-role="button" ></a>
+    <div align="center">
+      <img src="img/gcosws.png" height="8%" width="70%"/>
+	  </div>
+    <a href="#studentmanual" data-iconpos="notext" data-role="button" data-icon="back" data-theme="b" title="Home">Home</a>
+</div>
+<div data-role="content" role="main"  style="background: #b4efcb;  border-radius: 8px; margin:5%; ">
+					<div ><img src="img/infowearing.png" width="100%"></div>
+		<fieldset class="ui-grid-a" align="center" >
+        <div class="ui-block-a" style="color: white; font-size:200%"><a href="#male"  ><img src="img/male.png" width="70%" height="30%"/></a><br />  </div>
+        <div class="ui-block-b" style="color: white; font-size:200%"><a href="#female"   ><img src="img/female.png" width="70%" height="30%" /></a> <br />  </div>
+		</fieldset>
+				<fieldset class="ui-grid-a" align="center" >
+ <div class="ui-block-a" ALIGN="CENTER"><img src="img/pe.png" width="90%"   /></div>	
+ <div class="ui-block-b" ALIGN="CENTER"><img src="img/maong.png" width="90%"   /></div>	 
+
+		</fieldset>
+
+
+</div>
+	</div>
+
+
+
+      <!-- male -->
+<div data-role="page" id="male">
+<div data-role="header" data-position="fixed">
+      <a href=""  data-role="button" ></a>
+  <div align="center">
+	  <img src="img/gcosws.png" height="8%" width="70%">
+      </div>
+	  <a href="#wearinguniform" data-iconpos="notext" data-role="button" data-icon="back" data-theme="b" title="Home">Home</a>
+</div>
+<div data-role="content" role="main" >
+  <div data-role="collapsible" data-theme="b"   data-content-theme="b" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-checkround" data-collapsed="false">
+         <h3>FOR MALE</h3>
+<img src="img/properhair.png" width="100%"/> <br />
+<img src="img/undershirt.png" width="100%"/> <br />
+<img src="img/shoes.png" width="100%"/>
+
+  </div>
+  
+
+</div>	
+</div>
+
+      <!-- femlae -->
+<div data-role="page" id="female">
+<div data-role="header" data-position="fixed">
+      <a href="#"  data-role="button" ></a>
+   <div align="center">
+	  <img src="img/gcosws.png" height="8%" width="70%">
+      </div>
+	        <a href="#wearinguniform"  data-iconpos="notext" data-role="button" data-icon="back" data-theme="b" title="Home">Home</a>
+</div>
+<div data-role="content" role="main" >
+  <div data-role="collapsible" data-theme="b"   data-content-theme="b" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-checkround" data-collapsed="false">
+         <h3>FOR FEMALE:</h3>
+		  <img src="img/propermakeup.png" width="100%"/>
+		   <img src="img/earrings.png" width="100%"/>
+		 <img src="img/shoesfemale.png" width="100%"/>
+		 
+		 	
+</div>	
+</div>
+</div>
+ </body>
+</html>

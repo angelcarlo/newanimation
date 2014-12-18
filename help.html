@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>Help</title>
+	 
+	   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+  
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+    <script>
+window.onload = popup;
+
+function popup(){
+
+	$.mobile.loading('show');
+
+
+			$("#uno").slideDown(2000);
+						$("#uno").fadeIn(function(){								
+						});
+						
+						
+							$("#dos").slideDown(3000);
+						$("#dos").fadeIn(function(){								
+						});
+						
+								$("#tres").slideDown(3000);
+						$("#tres").fadeIn(function(){								
+						});
+						
+						
+									$("#quatro").slideDown(3000);
+						$("#quatro").fadeIn(function(){	
+
+					
+						});
+						
+						
+						
+											$("#singko").slideDown(3000);
+						$("#singko").fadeIn(function(){	
+
+	$.mobile.loading('hide');						
+						});
+						
+						}
+	   </script>					
+  </head>
+
+  <body>
+
+ <div data-role="page" id="map-page"> 
+ 	<div data-role="header" data-theme="a" data-position="fixed">
+	<a ></a>
+  <div align="center">
+	  <img src="img/gcosws.png" height="8%" width="70%">
+      </div>
+     <a href="index.html"  data-ajax="false" data-direction="reverse" data-iconpos="notext" data-role="button" data-icon="home" data-theme="b" title="Home">Home</a>
+  </div>
+  <br />
+
+  <div   data-role="content" style="background: #b4efcb;  border-radius: 6px; margin:5%; ">
+<div align="center" style="color: white; background: #229132;  border-radius: 6px; display: none"  id="uno">
+<div align="center" style="color: #4bb774;"><img src="img/v.png"/ width="15%"> <img src="img/m.png"/ width="15%"> <img src="img/g.png"/ width="15%"> <br/>
+<img src="img/vmg.png"/ width="100%">
+</div>
+</div>
+
+	
+	<br/>
+	
+	  
+<div align="center" style="color: white; background: #229132;  border-radius: 6px;  display: none" id="dos">
+
+<img src="img/uhs.png"/ width="100%">
+</div>
+<br />
+
+
+
+<div align="center" style=" display: none" id="tres">
+<img src="img/procedure.png"/ width="100%">
+</div>
+<div align="center" style=" display: none" id="quatro">
+<img src="img/procedure1.png"/ width="100%">
+    </div>
+ <br/>
+ <div align="center" style=" display: none" id="singko">
+<img src="img/procedure2.png"/ width="100%">
+     </div>
+ <br/>
+ 
+
+ <img src="img/procedure3.png"/ width="100%">
+ 
+    </div>
+	    </div>
+ </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>UNITS</title>
+	 
+	   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+  	<script src='js/jquery.zoom.js'></script>
+		<script src='js/jquery.zoom.min.js'></script>
+  <script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+			$('#ex2').zoom({ on:'grab' });
+			$('#ex3').zoom({ on:'click' });		
+$('#ex5').zoom({ on:'click' });
+$('#ex6').zoom({ on:'click' });	
+$('#ex7').zoom({ on:'click' });	
+$('#ex8').zoom({ on:'click' });	
+$('#ex9').zoom({ on:'click' });		
+$('#ex10').zoom({ on:'click' });	
+$('#ex11').zoom({ on:'click' });					
+			$('#ex4').zoom({ on:'toggle' });
+		});
+		
+		
+		
+		
+		
+	</script>
+      <script>
+  $(document).ready(function(){
+  $('#showsuccessful').click(function(){
+$('#ex3').slideToggle(300);
+ $('#ex3').show();
+});
+  });
+  </script>
+  
+  <script>
+window.onload = popup;
+
+function popup(){
+
+						$.mobile.loading('show');
+						$("#animatesurvival").slideDown(2000);
+						$("#animatesurvival").fadeIn(function(){
+						
+											
+						});
+	
+						$("#animateinfo").slideDown(3000);
+						$("#animateinfo").fadeIn(function(){							
+			
+						});
+				
+					
+							$("#animatecollegelife").slideDown(3000);
+						$("#animatecollegelife").fadeIn(function(){							
+			
+						});
+				
+		
+							$("#animatesuccessful").slideDown(3000);
+						$("#animatesuccessful").fadeIn(function(){							
+				$.mobile.loading('hide');	
+						});		
+			
+}
+
+  </script>
+
+  <script>   
+ 
+</script>	
+  </head>
+
+  <body>
+<div data-role="page" id="survivalkit">
+<div data-role="header" data-position="fixed">
+      <a href="#" ></a>
+<div align="center">
+      <img src="img/gcosws.png" height="8%" width="70%"/>
+	  </div>
+	  <a href="index.html" data-ajax="false" data-iconpos="notext" data-role="button" data-icon="home" data-theme="b" title="Home">Home</a>
+   
+</div>
+<div data-role="content" role="main" style="background: #b4efcb;  border-radius: 8px; margin:5%; ">
+
+
+		
+		<div  style="background: #419d64; border-radius:6px; display:none" id="animatesurvival">
+		<div align="center" style="color: white;"> <img src="img/weather.png" id="img3" align="center" width="40%"  height="20%"/>  </div>
+		</div>
+		<div   style="display:none" id="animateinfo"><img src="img/infosurvival.png" width="100%"> </div>
+<div  style="display:none" id="animatecollegelife"  >
+<img src="img/together.png"  width="100%">	
+</div>	
+<div  style="display:none" id="animatesuccessful">
+<button  style="background: #005325" data-icon="carat-d" data-theme="g" id="showsuccessful"  >A SUCCESSFUL GC STUDENT</button>
+<div align="center">
+	<span  class='zoom' id='ex3' style="display: none;">
+		<img src='img/successful1.png' width='100%'  alt='Daisy on the Ohoopee'/>
+	
+	</span>
+</div>
+	</div>
+	<div align="center">
+	<img src='img/avail.png' width='100%'  alt='Daisy on the Ohoopee'/>
+</div>
+
+
+
+
+</div>
+</div>
+ </body>
+</html>

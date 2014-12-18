@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>UNITS</title>
+	 
+	   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css" />
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+
+
+  
+
+<script>
+window.onload = popup;
+
+function popup(){
+
+						$.mobile.loading('show');
+						$("#uno").slideDown(2000);
+						$("#uno").fadeIn(function(){
+						
+											
+						});
+	
+						$("#dos").slideDown(3000);
+						$("#dos").fadeIn(function(){							
+			
+						});
+				
+					
+							$("#tres").slideDown(3000);
+						$("#tres").fadeIn(function(){							
+			
+						});
+				
+		
+							$("#quatro").slideDown(3000);
+						$("#quatro").fadeIn(function(){							
+				$.mobile.loading('hide');	
+						});		
+			
+}
+
+  </script>
+
+
+
+
+
+  </head>
+
+  <body>
+<div data-role="page" id="survivalkit">
+<div data-role="header" data-position="fixed">
+      <a href="#" ></a>
+<div align="center">
+      <img src="img/gcosws.png" height="8%" width="70%"/>
+	  </div>
+	  <a href="index.html" data-ajax="false" data-iconpos="notext" data-role="button" data-icon="home" data-theme="b" title="Home">Home</a>
+   
+</div>
+
+
+<br />
+<div data-role="content" role="main" style="background: #b4efcb;  border-radius: 8px; margin:5%; ">
+
+<div style="background: #b4efcb;  border-radius: 8px; margin:5%; ">
+		<div align="center"  style="display: none; " id="uno"><img src="logo.png"  width="40%"/></div>
+		
+			<div align="center">
+		<p style="font-weight: 900;  display: none " id="dos">GC OSWS CONNECT</p>
+		</div>
+		
+		<div align="center">
+		<p style="font-weight: 900;  display: none " id="tres">Version  1.0.3</p>
+		</div>
+	</div>
+
+<div style="background: #b4efcb;  border-radius: 8px; margin:5%; ">
+		
+		
+		<div align="center"  style=" display: none " id="quatro">
+		<p  >“Gordon College Office of the Student Welfare and Services Mobile Application (GC OSWS)”</p>
+		</div>
+<div align="center">
+<a href="#popupBasic" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="slidedown">READMORE</a>
+</div>
+<div data-role="popup" id="popupBasic">
+<p STYLE="text-align: justify;">The project is concerning the Gordon College Students concerns that could help students to answer their queries. This project also notifies the Gordon College Students about the class suspension updates, activities of the school, etc. 
+The Gordon College Students will surely benefit on the cross platform GC SWS Mobile Application for Gordon College Students to make their life convenient. Instead on going to the Student Welfare and Services Office, the students just have to look for GC SWS Mobile Application to create questions.
+</p>
+</div>
+		
+</div>
+</div>
+
+
+<div data-role="footer" role="main"  data-position="fixed">
+<div align="center">     
+	 <a href="#popupBasic1" data-rel="popup"  data-theme="d"   data-transition="slidedown" class="ui-btn ui-icon-user ui-btn-icon-top">ABOUT DEVELOPER</a>
+</div>
+	 <div data-role="popup" id="popupBasic1" class="ui-content" data-theme="a" style="max-width:350px; background: #b4efcb; ">
+  <div style="margin-top: 25%">
+<img src="img/developer.png" width="100%">
+</div>
+		
+</div>
+	  </div>
+</div>
+ </body>
+</html>
